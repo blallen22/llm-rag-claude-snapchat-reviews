@@ -30,7 +30,7 @@ This package will demonstrate how to:
 
 ## User Data
 
-The Snapchat user reviews used in this project are [the 10 publicly-available Apple App Store user reviews found here](https://apps.apple.com/us/app/snapchat/id447188370?see-all=reviews). Although usernames are present at the url provided, these were masked in this application to ensure user privacy. While a larger dataset would be more valuable for generating insights at scale, large Kaggle datasets of Snapchat user reviews were not used, explicitly to avoid any perceived infringement using user data of dubious provenance. Additionally, while changing the region in the above URL (e.g., to 'gb' instead of 'us') would have yielded additional user reviews, these were avoided to ensure regulatory compliance (i.e., GDPR, etc.).
+The Snapchat user reviews used in this project are [the 10 publicly-available Apple App Store user reviews found here](https://apps.apple.com/us/app/snapchat/id447188370?see-all=reviews). Although usernames are present at the url provided, these were masked in this application to ensure user privacy. While a larger dataset would be more valuable for generating insights at scale, large Kaggle datasets of Snapchat user reviews were not used, explicitly to avoid any perceived infringement using user data of dubious provenance. Additionally, while changing the region in the above URL (e.g., to 'gb' instead of 'us') would have yielded additional user reviews, those reviews were avoided to ensure regulatory compliance (i.e., GDPR, etc.).
 
 ### Next Steps
 Future next steps for this project include:
