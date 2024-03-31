@@ -2,7 +2,7 @@
 
 This is a personal proof-of-concept project that uses a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) implementation to derive insights from Snapchat user reviews. Specifically, this uses Claude models (V2 and Sonnet) via Amazon Bedrock, Amazon Titan Embeddings, and Meta's Facebook AI Similarity Search (FAISS) vector store to classify user reviews (i.e., positive, neutral, or negative), extract named products referenced for product tagging, and succinctly summarizing each review.
 
-Disclaimer: This work is in a personal capacity unrelated to my employer. It relies only on publicly available resources. This package is for illustrative purposes, and is not designed for end-to-end productionization as-is.
+Disclaimer: This work is in a personal capacity unrelated to my employer. It relies only on publicly available resources. This package is for illustrative purposes, and is not designed for end-to-end productionization as-is. Also consider that this is an extremely small sample size of user reviews and should therefore not be perceived as representative of the average user experience.
 
 ### Prerequisites
 
