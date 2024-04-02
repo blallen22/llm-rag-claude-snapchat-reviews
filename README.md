@@ -4,14 +4,14 @@ This is a personal proof-of-concept project that uses a Retrieval-Augmented Gene
 
 Disclaimer: This work is in a personal capacity unrelated to my employer. It relies only on publicly available resources. This package is for illustrative purposes and is not designed for end-to-end productionization as-is. Also consider that this is an extremely small sample size of user reviews and should therefore not be perceived as representative of the average user experience. For example, the reviews publicly available per the methodology below are apparently mostly negative, whereas the Apple App Store rating of 4.6/5.0 demonstrates that most reviews are positive.
 
-### Prerequisites
+## Prerequisites
 
 You will need your own Amazon Web Services (AWS) account with Claude and Titan Amazon Bedrock model access. Your Python environment will also require:
 - langchain>=0.1.11
 - langchain-community
 - faiss-cpu==1.8.0
 
-### Overview
+## Overview
 
 This package will demonstrate how to:
 - Import libraries
@@ -47,7 +47,7 @@ When Claude 3 Sonnet was iteratively prompted to classify the sentiment of the s
 
 The Snapchat user reviews used in this project are [the 10 publicly-available Apple App Store user reviews found here](https://apps.apple.com/us/app/snapchat/id447188370?see-all=reviews). Although usernames are present at the url provided, these were masked in this application to ensure user privacy. While a larger dataset would be more valuable for generating insights at scale, large Kaggle datasets of Snapchat user reviews were not used, explicitly to avoid any perceived infringement using user data of dubious provenance. Additionally, while changing the region in the above URL (e.g., to 'gb' instead of 'us') would have yielded additional user reviews, those reviews were avoided to ensure regulatory compliance (i.e., GDPR, etc.).
 
-### Next Steps
+## Next Steps
 Future next steps for this project include:
 - Incorporating evaluation methodologies to assess the quality of the outputs beyond the current heuristic assessment
 - Inspecting the methodological decisions with further granularity (e.g., the chunk size during the chunking process, etc.)
