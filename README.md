@@ -1,6 +1,6 @@
 # LLM - RAG with Claude for Snapchat User Review Insights
 
-This is a personal proof-of-concept project that uses a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) implementation to derive insights from Snapchat user reviews. Specifically, this uses Claude models (V2 and Sonnet) via Amazon Bedrock, Amazon Titan Embeddings, and Meta's Facebook AI Similarity Search (FAISS) vector store to classify user reviews (i.e., positive, neutral, or negative), extract named products referenced for product tagging, and succinctly summarizing each review.
+This is a personal proof-of-concept project that uses a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) implementation to derive insights from Snapchat user reviews. Specifically, this uses Claude models (2 and Sonnet) via Amazon Bedrock, Amazon Titan Embeddings, and Meta's Facebook AI Similarity Search (FAISS) vector store to classify user reviews (i.e., positive, neutral, or negative), extract named products referenced for product tagging, and succinctly summarizing each review.
 
 Disclaimer: This work is in a personal capacity unrelated to my employer. It relies only on publicly available resources. This package is for illustrative purposes and is not designed for end-to-end productionization as-is. Also consider that this is an extremely small sample size of user reviews and should therefore not be perceived as representative of the average user experience. For example, the reviews publicly available per the methodology below are apparently mostly negative, whereas the Apple App Store rating of 4.6/5.0 demonstrates that most reviews are positive.
 
@@ -22,19 +22,19 @@ This package will demonstrate how to:
 - Create vector store
 - Embed question and return relevant chunks
 - Create RAG prompt template
-- Produce RAG outputs with Claude V2
+- Produce RAG outputs with Claude 2
 - Define Claude 3 function
 - Read in reviews as .csv for iterative prompting
 - Define function to prompt reviews
 - Generate review sentiments, identify products mentioned, and generate summaries
 
-## Claude V2 RAG Output Examples
+## Claude 2 RAG Output Examples
 
-When Claude V2 was provided with the vector store of user reviews and prompted "What are some of the features that people like most about Snapchat?", it returned:
+When Claude 2 was provided with the vector store of user reviews and prompted "What are some of the features that people like most about Snapchat?", it returned:
 
 ![image](https://github.com/blallen22/llm-rag-claude-snapchat-reviews/assets/4731381/90d2df94-c20a-41b3-99e2-946b48d7639f)
 
-When Claude V2 was provided with the vector store of user reviews and prompted "What are the most important issues users are experiencing with Snapchat?", it returned:
+When Claude 2 was provided with the vector store of user reviews and prompted "What are the most important issues users are experiencing with Snapchat?", it returned:
 
 ![image](https://github.com/blallen22/llm-rag-claude-snapchat-reviews/assets/4731381/f98aa016-f04f-4b31-94e9-fd796346bd79)
 
